@@ -1,0 +1,185 @@
+:root{
+  --vermelho:#e5091494;
+  --preto:#14141434;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #141414;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+}
+
+header{
+  border: 1px solid black;
+}
+
+header , header .container, header .user{
+  background-color:var(--preto);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  height: 70px;
+}
+
+header .user {
+  gap: 15px;
+  margin-right: 10px;
+}
+
+header .container nav{
+  margin-left: 20px;
+}
+
+header .logo{
+  color: var(--vermelho);
+  font-size: 40px;
+}
+
+header nav a:hover{
+  color: #fff;
+}
+
+main{
+  margin-bottom: 10px;
+}
+
+main .principal{
+  font-size: 16px;
+  background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%),
+  url('../img/berserk.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+main .principal .container{
+  margin-left: 5px;
+  width: 70%
+}
+
+.principal .container .description {
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.principal .container .title {
+  margin-top: 5%;
+  font-size: 40px;
+}
+
+.fa-user, .fa-bell, .fa-search{
+  display: inline-block;
+  overflow: hidden;
+  color: white;
+  font-size: 30px;
+}
+
+.button{
+  color: white;
+  padding: 15px 30px;
+  font-size: 12px;
+  margin-right: 15px;
+  border: none;
+  background: none;
+  background-color: rgba(0,0,0,.50);
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: white;
+  color: black;
+  transition: .3s ease all;
+}
+
+.button i{
+  margin-right: 5px;
+  font-size: 25px;
+}
+
+.box-movie{
+  height: 500px;
+  width: 300px;
+  display: block;
+}
+.box-movie img:hover{
+  opacity: 0.5;
+}
+
+.social{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.support{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.support li{
+   list-style-type: none;
+}
+.support li:hover{
+  color: red;
+  cursor: pointer;
+}
+
+footer{
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2{
+  margin-left: 5px;
+  font-weight: bolder;
+  font-style:oblique;
+}
+h1{
+  margin-bottom: 10px;
+}
+h1 > i{
+  margin-left: 10px;
+}
+
+button{
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+a[href="#"]{
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+a[href="https://github.com/SovietScott"]{
+  text-decoration: none;
+  font-size: 25px;
+  color: rgba(146, 98, 224, 0.904);
+  display: flex;
+  justify-content: center;
+}
+a[href="https://github.com/SovietScott"]:hover{
+  color: slateblue;
+  text-decoration:solid;
+}
+
+
