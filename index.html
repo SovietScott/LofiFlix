@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+  <!--Links-->
+  <link rel="stylesheet" href="./style/index.css">
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./style/responsive.css">
+  <!--Links-->
+  <!--Fontes e ícones-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/cfded04e87.js" crossorigin="anonymous"></script>
+  <!--Fontes e ícones-->
+
+  <title>LofiFlix</title>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h2 class="logo">LOFIFLIX</h2>
+      <nav>
+        <a href="#">Início</a>
+        <a href="#">Séries</a>
+        <a href="#">Filmes</a>
+        <a href="#">Documentários</a>
+      </nav>
+    </div>
+    <div class="user">
+        <button>
+          <i class="fas fa-search"></i>
+        </button>
+        <a href="#">INFANTIL</a>
+        <button>
+          <i class="fas fa-bell"></i>
+        </button>
+        <div class="dropdown-button">
+          <a href="#">
+            <i class="fas fa-user"></i>
+          </a>
+        </div>
+    </div>
+    
+  </header>
+
+  <main>
+    <div class="principal" id=play>
+      <div class="container">
+        <h3 class="title">Berserk</h3>
+        <p class="description">
+          Guts é um sobrevivente que vaga pelo mundo à procura de respostas. Antigo membro do ext "Bando dos Falcões", um grupo mercenário de cavaleiros e guerreiros liderado por Griffith e Caska, Guts se adentra na história que ganha corpo e emerge sob um ponto de vista totalmente imprevisível, a medida que os acontecimentos vão se completando. É uma obra dedicada à eterna luta do Catolicismo contra Paganismo....
+          Assista agora à coleção dos três filmes
+        </p>
+        <div class="buttons"> 
+          <button class="button">
+            <i class="fas fa-play"></i>
+            ASSISTIR AGORA</button>
+          <button class="button" onclick="info(`https://pt.wikipedia.org/wiki/Berserk:_%C5%8Cgon_Jidai-Hen`)">
+            <i class="fas fa-info-circle"></i>
+            MAIS INFORMAÇÕES</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="carrousel-movies">
+    <h1>Mais populares <i class="fas fa-arrow-right"></i> </h1>
+    <div class="owl-carousel owl-theme">
+      <div class="item"><img class="box-movie popular" src="./img/one_piece.jpg" onclick="play()"></div>
+      <div class="item"><img class="box-movie popular" src="./img/shinchan.jpg""></div>
+      <div class="item"><img class="box-movie popular" src="./img/blackclover.png"></div>
+      <div class="item"><img class="box-movie popular" src="./img/boruto.jpg"></div>
+      <div class="item"><img class="box-movie popular" src="./img/deathnote.jpg"></div>
+      <div class="item"><img class="box-movie popular" src="./img/hxh.jpg"></div>
+      <div class="item"><img class="box-movie popular" src="./img/rezero.jpg"></div>
+      <div class="item"><img class="box-movie popular" src="./img/yuyuhakusho.jpg"></div>
+    </div>
+    <h1>Mais recentes <i class="fas fa-arrow-right"></i> </h1>
+    <div class="owl-carousel owl-theme">
+      <div class="item"><img class="box-movie" src="./img/bna.jpg"></div>
+      <div class="item"><img class="box-movie" src="./img/drstone.jpg"></div>
+      <div class="item"><img class="box-movie" src="./img/onepunchman.jpg"></div>
+      <div class="item"><img class="box-movie" src="./img/codegeass.jpg"></div>
+      <div class="item"><img class="box-movie" src="./img/aot.jpg"></div>
+      <div class="item"><img class="box-movie" src="./img/fairytail.jpg"></div>
+      <div class="item"><img class="box-movie" src="./img/naruto.jpg"></div>
+      <div class="item"><img class="box-movie" src="./img/kimetsu.jpg"></div>
+    </div>
+    <h1>Recomendações para você <i class="fas fa-arrow-right"></i> </h1>
+    <div class="owl-carousel owl-theme">
+      <div class="item"><img class="box-movie" src="./img/bleach.jpg"></div>
+      <div class="item"><img class="box-movie" src="./img/fullmetal.jpg"></div>
+      <div class="item"><img class="box-movie" src="./img/wonderegg.png"></div>
+      <div class="item"><img class="box-movie" src="./img/devilman.jpg"></div>
+      <div class="item"><img class="box-movie" src="./img/haikyu.jpg"></div>
+      <div class="item"><img class="box-movie" src="./img/jujutsu.jpg"></div>
+      <div class="item"><img class="box-movie" src="./img/berserk.jpg"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="social">
+      <i class="fab fa-facebook-square"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+    <div class="support">
+      <ul>
+        <li>Idioma e Legendas</li>
+        <li>Imprensa</li>
+        <li>Privacidade</li>
+        <li>Contato</li>
+      </ul>
+      <ul>
+        <li>Audiodescrição</li>
+        <li>Investidores</li>
+        <li>Termos legais</li>
+      </ul>
+      <ul>
+        <li>Central de ajuda</li>
+        <li>Carreiras</li>
+        <li>Cookies</li>
+      </ul>
+      <ul>
+        <li>Cartões pré-pagos</li>
+        <li>Termos de uso</li>
+        <li>Informações corporativas</li>
+      </ul>
+    </div>
+    
+  </footer>
+  <a href="https://github.com/SovietScott">Github</a>
+  
+  <script src="./js/index.js"></script>
+  <script src="./js/owl/jquery.min.js"></script>
+  <script src="./js/owl/owl.carousel.min.js"></script>
+  <script src="./js/owl/setup.js"></script>
+</body>
+<html>
